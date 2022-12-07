@@ -7,8 +7,6 @@ The program **direct_links_generator.py** is used to isolate the links generated
 **For the operation of YandexBot_image_recognition.py:**
 - Please upload your personal list of URLs into the **URLS.py** file. I personally use the free imgbb.com server to generate image links, which must then be inserted into URLS.py.
 
-separador_stacks_50.py sirve para copiar de la carpeta "recognition_images_src", stacks de a 50 archivos src.html generados por YandexBot_image_recognition.py a un archivo llamado "all_src.html" de esa manera se puede descargar todas las imágenes abriendo ese archivo "all_src.html" haciendo click derecho y "guardar página", automáticamente comenzarán a descargarse los archivos
-
 To download the images, follow these steps:
 
 1- Open the .html file
