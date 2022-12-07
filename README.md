@@ -12,8 +12,11 @@ separador_stacks_50.py sirve para copiar de la carpeta "recognition_images_src",
 To download the images, follow these steps:
 
 1- Open the .html file
+
 2- Right click on the file
+
 3- Select "save page".
+
 4- This will start the automatic download of the page and the images contained in it.
 
 **separador_stacks_50.py**
