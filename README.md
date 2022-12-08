@@ -1,5 +1,4 @@
 ## Ideal for downloading over 10 million specific images for use in testing and training 😅
-
 ## **Installation: tested in python 3.10.0 | Windows 10**
 
 - pip install beautifulsoup4==4.11.1
