@@ -19,7 +19,8 @@ options.add_argument(r"--user-data-dir=C:\Users\Santi\AppData\Local\Google\Chrom
 options.add_argument("window-size=1200x800")
 driver = webdriver.Chrome(executable_path=r'webdriver//chromedriver.exe', chrome_options=options)
 
-os.system('cls')
+try:os.system('cls')
+except:os.system('clear')
 print("""
  ./YandexBot_image_recognition.py
   ____              _______ _   ______ _       ___ __    __
