@@ -9,8 +9,8 @@ import os, time
 # imágenes encontradas en una lista y escribe esas URL en un archivo HTML.
 
 try:
- os.system('cls')
  os.system('color 6')
+ os.system('cls')
 except:os.system('clear')
  
 print("""
