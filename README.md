@@ -62,8 +62,6 @@ ___________________________________________________________
 **file_organizer.py**
 ![stack50_1](https://user-images.githubusercontent.com/115203597/206514765-c06b72ed-29ab-4eb0-9f21-f0e41ec5494e.png)
 
-![stack50_2](https://user-images.githubusercontent.com/115203597/206519503-b6b209dc-e27b-4ef7-b336-7bdaa0661b30.png)
-
-![stack50_3](https://user-images.githubusercontent.com/115203597/206519510-dde8212d-df59-4b66-999b-0866c1ad08ad.png)
+![stack50_2](https://user-images.githubusercontent.com/115203597/206522632-dd0c5622-1027-49cb-a2ca-1b0df5214020.png)
 
 
