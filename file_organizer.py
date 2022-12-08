@@ -4,7 +4,7 @@ import os
 try:os.system('cls')
 except:os.system('clear')
 print("""
- ./organizador_de_archivos.py
+ ./file_organizer.py
   ____              _______ _   ______ _       ___ __    __
  |  _ \            /__   __(_)/__   __(_) _ __|_| |\ \\  / /
  | |_) |_   _         | |   _    | |   _ | '__| | | \ \\/ /
@@ -16,7 +16,7 @@ print("""
 """)
 
 # Solicitar ruta de la carpeta de entrada
-ruta = input('Arrastre la carpeta con imagenes a capturar: ')
+ruta = input('Arrastre la carpeta con imagenes src a capturar: ')
 ruta = ruta.replace("\\", '/')
 ruta = ruta.replace('"', '')
 
@@ -36,22 +36,29 @@ cadena = []
 # Establecer nombre de la carpeta de salida
 output_dir = "stacks_50"
 
+# Crear carpeta
+try:
+    os.mkdir(f"{output_dir}")
+except FileExistsError:pass
+
+file_count = 1
+
 # Recorrer cada archivo en la lista
 for file_path in path_list:
     if contador3 == LIMITE:
-        # Crear carpeta
-        os.makedirs(f"{output_dir}\\{contador}")
-
         # Escribir archivos en la carpeta
-        with open(f"{output_dir}/{contador}/ALL_LINKS.html", 'w') as file:
+        with open(f"{output_dir}/{file_count}__{LIMITE}_files_in_one.html", 'w') as file:
             for link in cadena:
                 file.write(link)
         file.close()
 
+        contador += 1
+        file_count +=1
+
         # Reiniciar contadores
         contador3 = 0
         cadena = []
-        contador += 1
+        
 
     # Leer contenido del archivo
     with open(file_path) as text_file:
@@ -64,10 +71,10 @@ for file_path in path_list:
 # Si hay archivos restantes, crear una carpeta adicional y agregar los archivos restantes
 if contador3 > 0:
     # Crear carpeta
-    os.makedirs(f"{output_dir}\\{contador}")
+    os.makedirs(f"{output_dir}\\adicional")
 
     # Escribir archivos en la carpeta
-    with open(f"{output_dir}/{contador}/ALL_LINKS.html", 'w') as file:
+    with open(f"{output_dir}/adicional/{file_count}__{LIMITE}_files_in_one.html", 'w') as file:
 
         for link in cadena:
             file.write(link)
