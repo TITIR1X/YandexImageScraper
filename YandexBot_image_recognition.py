@@ -137,7 +137,7 @@ while count < len(images_src_list):
         except:contador += 1
     
     # Crea un archivo donde se iterará cada src obtenido
-    with open(f'{carpeta_salida}/src{count2}.html', 'w') as fp:
+    with open(f'{carpeta_salida}/src_images_{count2}.html', 'w') as fp:
         for src in src_list:
             fp.write('%s.jpg">\n' % src + '<img src="')
 
