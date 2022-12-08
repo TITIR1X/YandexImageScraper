@@ -8,6 +8,19 @@ import os, time
 # a partir de un texto de búsqueda dado por el usuario. Luego, guarda las URL de las 
 # imágenes encontradas en una lista y escribe esas URL en un archivo HTML.
 
+try:os.system('cls')
+except:os.system('clear')
+print("""
+ ./separador_stacks_50
+  ____              _______ _   ______ _       ___ __    __
+ |  _ \            /__   __(_)/__   __(_) _ __|_| |\ \\  / /
+ | |_) |_   _         | |   _    | |   _ | '__| | | \ \\/ /
+ |  _ <| | | |        | | 0| |   | |  | || |    | |  \  \\
+ | |_) | |_| |        | | /| |   | |  | || |    | | / /\ \\
+ |____/ \__, |        |_| /|_|   |_|  |_||_|    |_|/_/  \_\\
+         __/ |                                               
+        |___/                           
+""")
 
 # Aquí se está configurando el navegador Chrome para que se abra con las opciones especificadas
 # (como el tamaño de la ventana y el directorio de datos del usuario).
