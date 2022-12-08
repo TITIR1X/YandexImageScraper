@@ -21,7 +21,7 @@ text_to_search = input('Escriba el texto con los parametros a buscar, ejemplo: M
 
 ### C O N F I G U R A R ###
 
-output_folder = 'SRC'
+output_folder = 'YandexBot_keyword_search'
 
 limit = 1400
 
