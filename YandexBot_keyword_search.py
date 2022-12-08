@@ -8,8 +8,11 @@ import os, time
 # a partir de un texto de búsqueda dado por el usuario. Luego, guarda las URL de las 
 # imágenes encontradas en una lista y escribe esas URL en un archivo HTML.
 
-try:os.system('cls')
+try:
+ os.system('cls')
+ os.system('color 6')
 except:os.system('clear')
+ 
 print("""
  ./separador_stacks_50
   ____              _______ _   ______ _       ___ __    __
