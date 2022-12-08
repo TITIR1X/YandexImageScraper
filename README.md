@@ -62,7 +62,8 @@ ___________________________________________________________
 **file_organizer.py**
 ![stack50_1](https://user-images.githubusercontent.com/115203597/206514765-c06b72ed-29ab-4eb0-9f21-f0e41ec5494e.png)
 
-![stack50_2](https://user-images.githubusercontent.com/115203597/206514834-d331cce0-0960-4cb6-be97-bd168553ae58.png)
+![stack50_2](https://user-images.githubusercontent.com/115203597/206519503-b6b209dc-e27b-4ef7-b336-7bdaa0661b30.png)
 
-![stack50_3](https://user-images.githubusercontent.com/115203597/206516990-51b6af85-efb8-4ccc-a61d-515a09468819.png)
+![stack50_3](https://user-images.githubusercontent.com/115203597/206519510-dde8212d-df59-4b66-999b-0866c1ad08ad.png)
+
 
