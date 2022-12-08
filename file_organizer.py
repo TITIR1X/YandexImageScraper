@@ -78,4 +78,5 @@ if contador3 > 0:
 
         for link in cadena:
             file.write(link)
+        # Guarda el archivo
         file.close()
