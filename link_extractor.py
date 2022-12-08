@@ -1,6 +1,7 @@
 import os, re
 
-os.system('cls')
+try:os.system('cls')
+except:os.system('clear')
 print("""
  ./separador_stacks_50
   ____              _______ _   ______ _       ___ __    __
