@@ -83,3 +83,6 @@ if contador3 > 0:
             file.write(link)
         # Guarda el archivo
         file.close()
+        
+print('file_organizer.py: Programa finalizado.')
+exit()
