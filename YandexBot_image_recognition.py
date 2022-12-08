@@ -20,8 +20,8 @@ options.add_argument("window-size=1200x800")
 driver = webdriver.Chrome(executable_path=r'webdriver//chromedriver.exe', chrome_options=options)
 
 try:
- os.system('cls')
  os.system('color 6')
+ os.system('cls')
 except:os.system('clear')
  
 print("""
