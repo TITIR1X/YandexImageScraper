@@ -1,8 +1,8 @@
 import os, re
 
 try:
- os.system('cls')
  os.system('color 6')
+ os.system('cls')
 except:os.system('clear')
  
 print("""
