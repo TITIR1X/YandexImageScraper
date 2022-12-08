@@ -61,4 +61,5 @@ while contador < len(imagesPathList):
             file.write('%s\n' % link + '')
             file.close()
 
-print(' ..terminado!\nPrograma finalizado con éxito!')
+print('link_extractor.py: Programa finalizado.')
+exit()
