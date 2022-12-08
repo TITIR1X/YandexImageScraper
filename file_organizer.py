@@ -71,4 +71,4 @@ if contador3 > 0:
 
         for link in cadena:
             file.write(link)
-            file.close()
+        file.close()
