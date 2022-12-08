@@ -11,10 +11,10 @@ ___________________________________________________________
 
 - pip install selenium==4.7.2
 
-**For the robot to work, you must add ChromeDriver from selenium, the version corresponding to your Chrome Browser.
+**For the robot to work, you must add ChromeDriver from selenium, the version corresponding to your Chrome Browser.**
 
-**(If your Chrome version is 108.0.5359.98, you must download ChromeDriver version 108).
-**To see which version of Chrome is installed on your computer, follow these steps:
+**(If your Chrome version is 108.0.5359.98, you must download ChromeDriver version 108).**
+**To see which version of Chrome is installed on your computer, follow these steps:**
 - Open Chrome on your computer.
 
 - Click on the Chrome menu in the upper right corner of the browser window.
@@ -25,7 +25,7 @@ ___________________________________________________________
 
 - To install the same version of ChromeDriver from Selenium, follow these steps:
 
-**Make sure you have the updated version of Chrome on your computer.
+**Make sure you have the updated version of Chrome on your computer.**
 - Download the correct version of ChromeDriver at: https://chromedriver.chromium.org/downloads
 
 - Extract the downloaded file to a folder on your computer.
