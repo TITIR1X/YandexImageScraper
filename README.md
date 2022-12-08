@@ -1,6 +1,7 @@
 # YandexImageScraper
-The script allows you to perform a search on Yandex.com using a keyword provided by the user, and then downloads a specified number of images resulting from the search. The downloaded images are stored in an HTML file in a folder specified by the user.
+The YandexBot_keyword_search.py script allows you to perform a search on Yandex.com using a keyword provided by the user and then downloads a specified number of images resulting from the search. The downloaded images are stored in an HTML file in a folder specified by the user.
 
+The YandexBot_image_recognition.py tool allows searching Yandex.com using a list of images provided by the user in the URL_.py file. By default, it downloads 1400 images resulting from each search and stores them in an HTML file in a user-specified folder.
 ___________________________________________________________
 
 **Installation: tested in python 3.10.0 | Windows 10**
