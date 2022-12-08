@@ -14,7 +14,7 @@ This code is used to group by 50 files from the "YandexBot_image_recognition" or
 
 **file_organizer.py** can be configured to group 100 files or more (in the variable 'LIMIT=50'), by default it is set to 50.
 ___________________________________________________________
-To download the images, follow these steps:
+### To download the images, follow these steps:
 
 1- Open the .html file
 
@@ -25,7 +25,7 @@ To download the images, follow these steps:
 4- This will start the automatic download of the page and the images contained in it.
 ___________________________________________________________
 
-**Installation: tested in python 3.10.0 | Windows 10**
+## **Installation: tested in python 3.10.0 | Windows 10**
 
 - pip install beautifulsoup4==4.11.1
 
