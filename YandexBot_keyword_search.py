@@ -83,5 +83,6 @@ for i in range(limit):
     with open(f'{output_folder}/SRCImages_keyword_search_{text_to_search}.html', 'w') as fp:
         for src in image_src_list:
             fp.write('<img src="{0}"/>\n'.format(src))
-
-print('programa finalizado!')
+        
+print('YandexBot_keyword_search.py: Programa finalizado.')
+exit()
