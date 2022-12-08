@@ -1,8 +1,11 @@
 import glob
 import os
 
-try:os.system('cls')
+try:
+ os.system('cls')
+ os.system('color 6')
 except:os.system('clear')
+ 
 print("""
  ./file_organizer.py
   ____              _______ _   ______ _       ___ __    __
