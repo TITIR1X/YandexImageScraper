@@ -1,7 +1,10 @@
 import os, re
 
-try:os.system('cls')
+try:
+ os.system('cls')
+ os.system('color 6')
 except:os.system('clear')
+ 
 print("""
  ./separador_stacks_50
   ____              _______ _   ______ _       ___ __    __
