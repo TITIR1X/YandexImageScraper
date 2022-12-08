@@ -77,7 +77,7 @@ for i in range(limit):
         pass
 
     # Finalmente, se escriben las URL de las imágenes en un archivo HTML en la carpeta especificada en la variable output_folder.
-    with open(f'{output_folder}/busqueda_{text_to_search}.html', 'w') as fp:
+    with open(f'{output_folder}/src_YandexImages_busqueda_{text_to_search}.html', 'w') as fp:
         for src in image_src_list:
             fp.write('<img src="{0}"/>\n'.format(src))
 
