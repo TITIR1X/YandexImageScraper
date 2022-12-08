@@ -34,7 +34,7 @@ print("""
 
 
 # Configuramos el nombre de la carpeta de salida y comprobamos si existe. Si no existe, la creamos.
-carpeta_salida = 'recognition_images_src'
+carpeta_salida = 'YandexBot_image_recognition'
 if not os.path.exists(carpeta_salida):
     os.mkdir(carpeta_salida)
 
