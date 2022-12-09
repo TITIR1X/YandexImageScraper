@@ -84,5 +84,5 @@ if contador3 > 0:
         # Guarda el archivo
         file.close()
         
-print('file_organizer.py: Programa finalizado.')
+print('\nfile_organizer.py: Programa finalizado.')
 exit()
