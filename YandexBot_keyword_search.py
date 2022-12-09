@@ -84,5 +84,5 @@ for i in range(limit):
         for src in image_src_list:
             fp.write('<img src="{0}"/>\n'.format(src))
         
-print('YandexBot_keyword_search.py: Programa finalizado.')
+print('\nYandexBot_keyword_search.py: Programa finalizado.')
 exit()
