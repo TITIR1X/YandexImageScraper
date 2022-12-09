@@ -152,7 +152,7 @@ with open(f'{carpeta_salida}/all_images_src.html', 'w') as fp:
     for src in src_list:
         fp.write('%s.jpg">\n' % src + '<img src="')
 
-print('YandexBot_image_recognition.py: Programa finalizado.')
+print('\nYandexBot_image_recognition.py: Programa finalizado.')
 exit()
 
 # Para descargar las imágenes, debe abrir el archivo .html deseado y hacer clic derecho en guardar página, esto hará que se descargen las imágenes a su ordenador.
