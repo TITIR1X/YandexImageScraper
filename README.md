@@ -58,6 +58,8 @@ ___________________________________________________________
 This program was created for a project called PsicoRecogn. The purpose of this project is to capture and analyze the morphopsychology of any user in order to create a detailed profile of their characteristics and provide ultra-personalization in the readings that the user makes. The project will be released gradually and the first mission is to obtain enough data to validate the usefulness of morphopsychology, as there is currently not enough data to prove it.
 
 The programs I created for the project were designed to analyze on a massive scale.
+
+If the PsicoRecogn project proves effective in capturing and analyzing morphopsychology, it could be used in dating applications to match people with complementary psychological profiles.
 ___________________________________________________________
 **file_organizer.py**
 ![stack50_1](https://user-images.githubusercontent.com/115203597/206514765-c06b72ed-29ab-4eb0-9f21-f0e41ec5494e.png)
