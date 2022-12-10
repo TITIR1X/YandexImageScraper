@@ -15,7 +15,7 @@ from collections import defaultdict
 # Configuramos las opciones del webdriver de Chrome
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-options.add_argument(r"--user-data-dir=C:\Users\Santi\AppData\Local\Google\Chrome\User Data")
+#options.add_argument(r"--user-data-dir=C:\Users\Santi\AppData\Local\Google\Chrome\User Data")
 options.add_argument("window-size=1200x800")
 driver = webdriver.Chrome(executable_path=r'webdriver//chromedriver.exe', chrome_options=options)
 
