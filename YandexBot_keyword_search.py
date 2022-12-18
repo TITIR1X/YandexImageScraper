@@ -2,16 +2,18 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
-import os, time
+import os, time, platform
 
 # Este código usa la librería selenium para automatizar la búsqueda de imágenes en Yandex 
 # a partir de un texto de búsqueda dado por el usuario. Luego, guarda las URL de las 
 # imágenes encontradas en una lista y escribe esas URL en un archivo HTML.
 
-try:
- os.system('color 6')
- os.system('cls')
-except:os.system('clear')
+os_name = platform.system()
+
+if os_name == 'Windows':
+    os.system('cls')
+elif os_name == "Linux":
+    os.system('clear')
  
 print("""
  ./separador_stacks_50
