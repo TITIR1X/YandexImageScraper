@@ -1,6 +1,6 @@
 import URLS_
 from bs4 import BeautifulSoup
-import re, time, requests, shutil, os
+import re, time, requests, shutil, os, platform
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -19,10 +19,13 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 options.add_argument("window-size=1200x800")
 driver = webdriver.Chrome(executable_path=r'webdriver//chromedriver.exe', chrome_options=options)
 
-try:
- os.system('color 6')
- os.system('cls')
-except:os.system('clear')
+os_name = platform.system()
+
+if os_name == 'Windows':
+    os.system('cls')
+elif os_name == "Linux":
+    os.system('clear')
+
  
 print("""
  ./YandexBot_image_recognition.py
